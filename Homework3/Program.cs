@@ -1,10 +1,13 @@
-﻿namespace Homework3
+﻿using Homework3.Applications;
+
+namespace Homework3
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Application application = new Application();
+            application.Run();
         }
     }
 }
